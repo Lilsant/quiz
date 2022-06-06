@@ -1,0 +1,36 @@
+.start__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 50x;
+  color: #1d355d;
+}
+
+.start__types-box {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.start__type {
+  padding: 10px;
+  flex-basis: 48%;
+  text-align: center;
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  color: rgba(96, 102, 208, 0.8);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.start__type:hover {
+  background-color: #f9a826;
+  color: #fff;
+  border: 2px solid #f9a826;
+}
+
+.start__type-img {
+  width: 80%;
+}

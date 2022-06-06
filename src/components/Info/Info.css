@@ -1,0 +1,135 @@
+/* .info {
+  position: fixed;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  border: 3px solid rgba(96, 102, 208, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  width: 450px;
+  height: 200px;
+}
+
+.info__flag-img {
+  width: 400px;
+  height: 250px;
+  border: 2px solid rgb(221, 219, 219);
+}
+.info__main {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2f527b;
+  margin-bottom: 10px;
+}
+
+.info__list {
+  list-style: none;
+}
+
+.info__list-item {
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(96, 102, 208, 0.8);
+}
+
+.ymaps-2-1-79-map {
+  position: absolute;
+}
+
+.info__close-btn {
+  width: 30px;
+  height: 30px;
+  background-image: url("./close.svg");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+} */
+
+.info {
+  position: fixed;
+  width: fit-content;
+  /* max-height: 360px; */
+  height: fit-content;
+  background-color: white;
+  border: 3px solid rgba(96, 102, 208, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 30px 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__flag-img {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.info__visual {
+  display: flex;
+}
+
+.info__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2f527b;
+  margin-bottom: 10px;
+}
+
+.info__list {
+  list-style: none;
+}
+
+.info__list-item {
+  font-size: 14px;
+  line-height: 26px;
+  /* color: rgba(96, 102, 208, 0.8); */
+  color: #2f527b;
+}
+
+.info__country {
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.info__close-btn {
+  width: 25px;
+  height: 25px;
+  background-image: url("./close.svg");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}

@@ -1,0 +1,89 @@
+.answer__item-number {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-right: 45px;
+}
+
+.answer__item-text {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.answer__list-item {
+  width: 100%;
+  user-select: none;
+  position: relative;
+  padding: 10px 19px;
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  color: rgba(96, 102, 208, 0.8);
+  border-radius: 12px;
+  margin-bottom: 31px;
+}
+
+.answer__flag {
+  width: 40px;
+}
+
+.answer__list-item:hover {
+  background-color: #f9a826;
+  border: 2px solid #f9a826;
+}
+
+.answer__list-item:hover .answer__item-text {
+  color: white;
+}
+
+.answer__list-item:hover .answer__item-number {
+  color: white;
+}
+
+.right {
+  background-color: #60bf88;
+  border: 2px solid #60bf88;
+  color: white;
+  pointer-events: none;
+}
+
+.right::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("./right.svg");
+  background-size: contain;
+  position: absolute;
+  right: 17px;
+  top: 30%;
+}
+
+.right:hover {
+  background-color: #60bf88;
+  border: 2px solid #60bf88;
+}
+
+.wrong {
+  background-color: #ea8282;
+  border: 2px solid #ea8282;
+  color: white;
+  pointer-events: none;
+}
+
+.wrong:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("./wrong.svg");
+  background-size: contain;
+  position: absolute;
+  right: 17px;
+  top: 30%;
+}
+
+.wrong:hover {
+  background-color: #ea8282;
+  border: 2px solid #ea8282;
+}
+
+.disabled {
+  pointer-events: none;
+}
