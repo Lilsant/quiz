@@ -1,8 +1,8 @@
 .playground {
-  padding: 68px 32px;
+  padding: 64px 29px;
   background-color: white;
   width: 464px;
-  min-height: 655px;
+  height: fit-content;
   border-radius: 24px;
   position: relative;
 }

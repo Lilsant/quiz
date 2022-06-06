@@ -34,3 +34,7 @@
 .start__type-img {
   width: 80%;
 }
+
+.start__type-title {
+  display: block;
+}
