@@ -113,6 +113,15 @@ export default function Playground(props) {
     setGameOver(true);
   }
 
+  function backToMenu() {
+    setIsGameStarted(false);
+    setGameOver(false);
+    setShit(false);
+    setRightId(false);
+    setWrongId(false);
+    setScore(0);
+  }
+
   const changeInfoWindowStatus = () => {
     setShowInfoWindow(!showInfoWindow);
   };
@@ -124,7 +133,6 @@ export default function Playground(props) {
     setRightId(false);
     setWrongId(false);
     setNext();
-    console.log(isBtnDisable);
   };
 
   return (
@@ -135,7 +143,11 @@ export default function Playground(props) {
           <StartScreen createQuestion={constructQuestion} />
         ) : null}
         {isGameOver ? (
-          <LoseScreen startNewGame={startNewGame} finalScore={score} />
+          <LoseScreen
+            startNewGame={startNewGame}
+            backToMenu={backToMenu}
+            finalScore={score}
+          />
         ) : (
           <>
             <img className="playground__image" src={adventureMan} />

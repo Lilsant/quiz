@@ -11,6 +11,12 @@
   color: #1d355d;
 }
 
+.result__btn-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .result__message-img {
   width: 238px;
   height: 136px;
@@ -44,6 +50,11 @@
   font-size: 18px;
   line-height: 27px;
   cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.result__btn:last-child {
+  margin-bottom: 0;
 }
 
 .result__btn:hover {

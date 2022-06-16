@@ -13,7 +13,7 @@ export default function AnswerList({
 }) {
   const listItems = countryList.map((el, i) => {
     return (
-      <li>
+      <li key={i}>
         <AnswerListItem
           rightId={rightId}
           wrongId={wrongId}
